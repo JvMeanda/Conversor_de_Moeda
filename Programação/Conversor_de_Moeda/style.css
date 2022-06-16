@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 200vh;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #fbfcfd, #bdd0da);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #000;
+  overflow-x: hidden;
+}
+
+/* HEADER */
+
+.header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0661bb;
+  padding: 15px;
+  box-shadow: #fff 0px 1px 4px 1px;
+  width: 100%;
+}
+
+.header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  top: 2px;
+  width: 80px;
+}
+
+.name-logo {
+  position: relative;
+  cursor: pointer;
+}
+
+.a-logo {
+  position: relative;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600px;
+  font-style: oblique;
+  margin-left: 0.5rem;
+}
+
+.a-logo::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  width: 0;
+  height: 1.8px;
+  background: #f5f5f5;
+  transition: 0.3s ease-out;
+}
+
+.a-logo:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+/* MAIN */
+
+.main-box {
+  position: absolute;
+  background-color: #dedede;
+  height: 60%;
+  width: 750px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -42.5%);
+  border-radius: 22px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.537);
+  z-index: 1;
+}
+
+.escolher-moeda {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 1.6rem;
+  cursor: pointer;
+  margin-top: 4%;
+}
+
+.escolher-moeda::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  width: 0;
+  height: 2.5px;
+  background: #000;
+  transition: 0.3s ease-out;
+}
+
+.escolher-moeda:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.icon-btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  left: 28.5%;
+  margin: 10px 0;
+}
+
+.icon-btn:hover {
+  color: #0661bb;
+}
+
+.conversor-box {
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+#money_info {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  white-space: nowrap;
+}
+
+.igual {
+  position: relative;
+  right: 7px;
+  font-size: 1.2rem;
+}
+
+#from_currency,
+#to_currency {
+  width: 200px;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.537);
+  margin: 0 20px;
+  font-size: 0.9rem;
+}
+
+#from_amount,
+#to_amount {
+  width: 120px;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.537);
+  font-size: 0.9rem;
+}
+
+.link {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 900px;
+}
+
+.link-crypto {
+  color: #0661bb;
+  display: flex;
+  white-space: nowrap;
+}
+
+.link-crypto:hover {
+  color: #09427b;
+}

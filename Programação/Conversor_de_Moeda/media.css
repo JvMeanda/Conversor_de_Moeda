@@ -1,0 +1,337 @@
+/* @MEDIA - MAIOR PIXEL ENCIMA E MENOR PIXEL EMBAIXO */
+
+@media (max-width: 1790px) {
+  body {
+    height: 0;
+  }
+}
+
+@media (max-width: 1168px) {
+  /* MAIN */
+
+  .escolher-coin {
+    white-space: nowrap;
+    margin-top: 2%;
+  }
+
+  .icon-btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    left: 28.5%;
+    margin: 10px 0;
+  }
+
+  #money_info {
+    position: absolute;
+    top: 70%;
+  }
+
+  .link-crypto {
+    font-size: 1rem;
+    white-space: nowrap;
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media (max-width: 1100px) {
+  /* MAIN */
+
+  .main-box {
+    width: 65%;
+  }
+
+  .escolher-coin {
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+
+  .conversor-box {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-18%, -50%);
+  }
+
+  .link-crypto {
+    font-size: 1rem;
+    white-space: nowrap;
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  /* MAIN */
+
+  #from_currency,
+  #to_currency {
+    width: 160px;
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #from_amount,
+  #to_amount {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+
+  .conversor-box {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .igual {
+    display: none;
+  }
+
+  .btn-transform {
+    position: relative;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translate(-35%);
+  }
+
+  #money_info {
+    position: absolute;
+    top: 80%;
+  }
+
+  .link-crypto {
+    font-size: 1rem;
+    white-space: nowrap;
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+  .btn-transform {
+    position: relative;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #from_currency,
+  #to_currency {
+    width: 160px;
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #from_amount,
+  #to_amount {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+
+  .conversor-box {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .igual {
+    display: none;
+  }
+
+  .icon-btn {
+    position: relative;
+    left: 0;
+  }
+
+  #money_info {
+    position: absolute;
+    top: 80%;
+  }
+
+  .link-crypto {
+    font-size: 0.8rem;
+    white-space: nowrap;
+    position: relative;
+    top: 43px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* HEADER */
+
+  .logo,
+  .a-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0%;
+  }
+
+  .a-logo {
+    position: relative;
+    padding: 0 0.4rem;
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* MAIN */
+
+  .main-box {
+    width: 80%;
+  }
+
+  .escolher-coin {
+    font-size: 2rem;
+    margin-top: 12%;
+  }
+
+  .btn-transform {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  #from_currency,
+  #to_currency {
+    width: 160px;
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #from_amount,
+  #to_amount {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+
+  .conversor-box {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .igual {
+    display: none;
+  }
+
+  .icon-btn {
+    position: relative;
+    left: 0;
+  }
+
+  #money_info {
+    position: absolute;
+    top: 80%;
+  }
+
+  .link-crypto {
+    font-size: 1rem;
+    white-space: nowrap;
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 499px) {
+  /* HEADER */
+
+  .logo {
+    width: 60px;
+  }
+
+  .a-logo {
+    font-size: 1.3rem;
+  }
+
+  .header-box {
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  /* MAIN */
+
+  .main-box {
+    width: 80%;
+  }
+
+  .escolher-coin {
+    font-size: 1.8rem;
+    margin-top: 8%;
+  }
+
+  #from_currency,
+  #to_currency {
+    width: 160px;
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #from_amount,
+  #to_amount {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+
+  .conversor-box {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .igual {
+    display: none;
+  }
+
+  .icon-btn {
+    position: relative;
+    left: 0;
+  }
+
+  #money_info {
+    position: absolute;
+    top: 80%;
+  }
+
+  .link-crypto {
+    font-size: 0.8rem;
+    white-space: nowrap;
+    position: relative;
+    top: 170px;
+  }
+}

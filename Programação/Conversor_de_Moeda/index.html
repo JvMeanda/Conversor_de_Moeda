@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/Flaticon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <title>Conversor de Moeda</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-box">
+            <img src="../img/LOGO.png" alt="LOGO" class="logo">
+            <h1 class="name-logo"><a href="" class="a-logo">Conversor de Moeda</a></h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-box">
+
+            <div class="escolher-moeda">
+                <h2 class="escolher-coin">Escolha a Moeda</h2>
+            </div>
+
+            <div class="conversor-box">
+
+                <div>
+                    <select id="from_currency"></select><span class="igual"><strong>=</strong></span>
+                    <input type="number" id="from_amount" value="1" />
+                </div>
+
+                <div class="btn-transform">
+                    <ion-icon class="icon-btn" name="swap-vertical-outline" id="swap"></ion-icon>
+                </div>
+
+                <div>
+                    <select id="to_currency"></select><span class="igual"><strong>=</strong></span>
+                    <input type="number" id="to_amount" />
+                </div>
+            </div>
+            <div class="number-box">
+                <span id="money_info"></span>
+            </div>
+
+            <div class="link"><a href="#" class="link-crypto">Conheça Nosso Conversor de Criptomoeda</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
