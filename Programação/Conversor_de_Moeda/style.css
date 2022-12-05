@@ -28,6 +28,7 @@ body {
   padding: 15px;
   box-shadow: #fff 0px 1px 4px 1px;
   width: 100%;
+  z-index: 999;
 }
 
 .header-box {
@@ -78,7 +79,7 @@ body {
 .main-box {
   position: absolute;
   background-color: #dedede;
-  height: 60%;
+  height: 500px;
   width: 750px;
   left: 50%;
   top: 50%;
@@ -169,22 +170,3 @@ body {
   font-size: 0.9rem;
 }
 
-.link {
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  font-weight: 900px;
-}
-
-.link-crypto {
-  color: #0661bb;
-  display: flex;
-  white-space: nowrap;
-}
-
-.link-crypto:hover {
-  color: #09427b;
-}
